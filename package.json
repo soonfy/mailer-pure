@@ -1,0 +1,32 @@
+{
+  "name": "mailer-pure",
+  "version": "1.0.0",
+  "description": "pure mailer by node",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config .eslintrc.js",
+    "test": "npm run lint && node test/mail.test.js",
+    "cover": "npm run lint && istanbul cover test/mail.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soonfy/mailer-pure.git"
+  },
+  "keywords": [
+    "mailer",
+    "pure"
+  ],
+  "author": "soonfy <soonfy@163.com> (https://github.com/soonfy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soonfy/mailer-pure/issues"
+  },
+  "homepage": "https://github.com/soonfy/mailer-pure#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-pure": "^1.0.4",
+    "eslint-plugin-import": "^2.12.0",
+    "istanbul": "^0.4.5",
+    "nodemailer": "^4.6.5"
+  }
+}
